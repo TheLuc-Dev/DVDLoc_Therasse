@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/MenuRechercher"
+        android:title="@string/txtMenuRecherche" />
+    <item
+        android:id="@+id/MenuReserverUnFilm"
+        android:title="@string/txtMenuReserverUnFilm" />
+    <item
+        android:id="@+id/MenuMagasins"
+        android:title="@string/txtMenuMagasins" />
+    <item
+        android:id="@+id/MenuPresentation"
+        android:title="@string/txtPresentation" >
+        <menu >
+            <item
+                android:id="@+id/MenuPresContact"
+                android:title="@string/txtMenuPresContact" />
+            <item
+                android:id="@+id/MenuPresEquipe"
+                android:title="@string/txtMenuPresEquipe" />
+            <item
+                android:id="@+id/MenuPresCroissance"
+                android:title="@string/txtMenuPresCroissance" />
+        </menu>
+    </item>
+</menu>

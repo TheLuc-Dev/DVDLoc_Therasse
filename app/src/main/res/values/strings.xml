@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">DVDLoc_Therasse</string>
+    <string name="txtBtnPolicier">Policier</string>
+    <string name="txtBtnFiction">Fiction</string>
+    <string name="txtBtnDocu">Docu</string>
+    <string name="txtBtnSerie">Serie</string>
+    <string name="txtMenuRecherche">Rechercher un film</string>
+    <string name="txtMenuReserverUnFilm">Réserver un film</string>
+    <string name="txtMenuMagasins">Magasins</string>
+    <string name="txtPresentation">Présentation</string>
+    <string name="txtMenuPresContact">Contact</string>
+    <string name="txtMenuPresEquipe">L’équipe</string>
+    <string name="txtMenuPresCroissance">Croissance</string>
+
+
+    <string name="txtListePolicier">Liste des films Policiers</string>
+    <string name="txtListeFiction">Liste des films de Fictions</string>
+    <string name="txtListeDocu">Liste des Documentaires</string>
+    <string name="txtListeSerie">Liste des Séries</string>
+    <string name="txtRetourListe">Retour</string>
+
+    <string name="txtTitreReservation">Réservation</string>
+    <string name="txtQuestionReservation">Voulez vous réserver le film "Avatar" ?</string>
+    <string name="txtBtnReservConfirm">Confirmer</string>
+    <string name="txtBtnReservAnnule">Annuler</string>
+
+    <string name="txtTitreRecherche">Rechercher un film</string>
+    <string name="txtEditRecherche">Entrez un titre</string>
+    <string name="txtBtnRecherche">OK</string>
+</resources>
