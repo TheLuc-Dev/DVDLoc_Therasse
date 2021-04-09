@@ -30,6 +30,11 @@ public class Recherche extends AppCompatActivity {
             {
                 Toast toast = Toast.makeText(getApplicationContext(), edtCherche.getText(), Toast.LENGTH_SHORT);
                 toast.show();
+
+                Intent intent = new Intent (Recherche.this, Policier.class);
+                intent.putExtra("titre", edtCherche.getText().toString());
+                startActivity(intent);
+                finish();
             }
         });
 

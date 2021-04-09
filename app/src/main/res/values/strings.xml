@@ -18,6 +18,7 @@
     <string name="txtListeDocu">Liste des Documentaires</string>
     <string name="txtListeSerie">Liste des Séries</string>
     <string name="txtRetourListe">Retour</string>
+    <string name="txtTitreDemande">Titre demandé</string>
 
     <string name="txtTitreReservation">Réservation</string>
     <string name="txtQuestionReservation">Voulez vous réserver le film "Avatar" ?</string>

@@ -11,7 +11,7 @@
         android:theme="@style/Theme.DVDLoc_Therasse">
         <activity android:name=".Recherche"></activity>
         <activity android:name=".Reservation" />
-        <activity android:name=".Serie" />
+        <activity android:name=".Series" />
         <activity android:name=".Docu" />
         <activity android:name=".Fiction" />
         <activity android:name=".Policier" />

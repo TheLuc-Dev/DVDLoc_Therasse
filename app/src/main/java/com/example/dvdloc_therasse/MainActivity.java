@@ -139,7 +139,7 @@ public class MainActivity extends AppCompatActivity {
                         Toast toast = Toast.makeText(getApplicationContext(), btnSerie.getText(), Toast.LENGTH_SHORT);
                         toast.show();
                         //Lance l'activité qui affiche la fenêtre Serie
-                        Intent intent = new Intent(MainActivity.this, Serie.class);
+                        Intent intent = new Intent(MainActivity.this, Series.class);
                         startActivity(intent);
                     }
                 });
@@ -174,14 +174,14 @@ public class MainActivity extends AppCompatActivity {
 
                 //Affichage du layOut de rechercher
                 Intent intentRecherche = new Intent(MainActivity.this, Recherche.class);
-                startActivity(intentRecherche);
+                startActivityForResult(intentRecherche,2);
                 return true;
             case R.id.MenuReserverUnFilm:
                 //TODO
 
                 //Affichage du layOut de réservation
-                Intent intent = new Intent(MainActivity.this, Reservation.class);
-                startActivityForResult(intent , 1);
+                Intent intentReserve = new Intent(MainActivity.this, Reservation.class);
+                startActivityForResult(intentReserve, 1);
                 return true;
             case R.id.MenuMagasins:
                 //TODO
@@ -213,6 +213,15 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(MainActivity.this,
                                 "Réservation annulé", Toast.LENGTH_SHORT).show();
                         break;
+                }
+                break;
+            case 2 :
+                // 2 pour le retour de layout recherche
+                if(resultCode==RESULT_OK){
+                    String titre = data.getStringExtra("titre");
+                    Toast.makeText(MainActivity.this,
+                            titre,
+                            Toast.LENGTH_SHORT).show();
                 }
                 break;
         }

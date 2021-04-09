@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ressources>
+    <dvd cat="serie" titre="lesexperts" realisateur="Jeffrey Hunt" img="Les Experts"></dvd>
+    <dvd cat="serie" titre="coldcase" realisateur="Marcos Siega" img="Cold case"></dvd>
+    <dvd cat="serie" titre="ncis" realisateur="Tony Wharmby" img="NCIS"></dvd>
+    <dvd cat="serie" titre="newyorkdistrict" realisateur="Dick Wolf" img="New York District"></dvd>
+</ressources>

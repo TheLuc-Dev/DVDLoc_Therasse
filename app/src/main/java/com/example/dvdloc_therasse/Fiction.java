@@ -15,9 +15,9 @@ public class Fiction extends AppCompatActivity {
         setContentView(R.layout.activity_fiction);
 
         //Gestion du bouton btnRetour
-        final Button btnRetour = (Button) findViewById(R.id.btnRetour);
+        final Button btnRetourFiction = (Button) findViewById(R.id.btnRetourFiction);
         //Utilisation d'un listener pour récupérer l'interaction avec le bouton
-        btnRetour.setOnClickListener(new Button.OnClickListener()
+        btnRetourFiction.setOnClickListener(new Button.OnClickListener()
         {
             @Override
             public void onClick(View arg0) {
